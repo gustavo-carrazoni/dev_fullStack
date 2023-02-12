@@ -1,0 +1,15 @@
+C:\Users\LF00455\source\repos\ExercCalculadora\ExercCalculadora\bin\Debug\net6.0\ExercCalculadora.exe
+C:\Users\LF00455\source\repos\ExercCalculadora\ExercCalculadora\bin\Debug\net6.0\ExercCalculadora.deps.json
+C:\Users\LF00455\source\repos\ExercCalculadora\ExercCalculadora\bin\Debug\net6.0\ExercCalculadora.runtimeconfig.json
+C:\Users\LF00455\source\repos\ExercCalculadora\ExercCalculadora\bin\Debug\net6.0\ExercCalculadora.dll
+C:\Users\LF00455\source\repos\ExercCalculadora\ExercCalculadora\bin\Debug\net6.0\ExercCalculadora.pdb
+C:\Users\LF00455\source\repos\ExercCalculadora\ExercCalculadora\obj\Debug\net6.0\ExercCalculadora.csproj.AssemblyReference.cache
+C:\Users\LF00455\source\repos\ExercCalculadora\ExercCalculadora\obj\Debug\net6.0\ExercCalculadora.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\LF00455\source\repos\ExercCalculadora\ExercCalculadora\obj\Debug\net6.0\ExercCalculadora.AssemblyInfoInputs.cache
+C:\Users\LF00455\source\repos\ExercCalculadora\ExercCalculadora\obj\Debug\net6.0\ExercCalculadora.AssemblyInfo.cs
+C:\Users\LF00455\source\repos\ExercCalculadora\ExercCalculadora\obj\Debug\net6.0\ExercCalculadora.csproj.CoreCompileInputs.cache
+C:\Users\LF00455\source\repos\ExercCalculadora\ExercCalculadora\obj\Debug\net6.0\ExercCalculadora.dll
+C:\Users\LF00455\source\repos\ExercCalculadora\ExercCalculadora\obj\Debug\net6.0\refint\ExercCalculadora.dll
+C:\Users\LF00455\source\repos\ExercCalculadora\ExercCalculadora\obj\Debug\net6.0\ExercCalculadora.pdb
+C:\Users\LF00455\source\repos\ExercCalculadora\ExercCalculadora\obj\Debug\net6.0\ExercCalculadora.genruntimeconfig.cache
+C:\Users\LF00455\source\repos\ExercCalculadora\ExercCalculadora\obj\Debug\net6.0\ref\ExercCalculadora.dll

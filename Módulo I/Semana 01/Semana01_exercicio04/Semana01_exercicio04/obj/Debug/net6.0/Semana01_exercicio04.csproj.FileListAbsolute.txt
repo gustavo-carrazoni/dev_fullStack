@@ -1,0 +1,15 @@
+C:\Users\LF00455\source\repos\Semana01_exercicio04\Semana01_exercicio04\bin\Debug\net6.0\Semana01_exercicio04.exe
+C:\Users\LF00455\source\repos\Semana01_exercicio04\Semana01_exercicio04\bin\Debug\net6.0\Semana01_exercicio04.deps.json
+C:\Users\LF00455\source\repos\Semana01_exercicio04\Semana01_exercicio04\bin\Debug\net6.0\Semana01_exercicio04.runtimeconfig.json
+C:\Users\LF00455\source\repos\Semana01_exercicio04\Semana01_exercicio04\bin\Debug\net6.0\Semana01_exercicio04.dll
+C:\Users\LF00455\source\repos\Semana01_exercicio04\Semana01_exercicio04\bin\Debug\net6.0\Semana01_exercicio04.pdb
+C:\Users\LF00455\source\repos\Semana01_exercicio04\Semana01_exercicio04\obj\Debug\net6.0\Semana01_exercicio04.csproj.AssemblyReference.cache
+C:\Users\LF00455\source\repos\Semana01_exercicio04\Semana01_exercicio04\obj\Debug\net6.0\Semana01_exercicio04.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\LF00455\source\repos\Semana01_exercicio04\Semana01_exercicio04\obj\Debug\net6.0\Semana01_exercicio04.AssemblyInfoInputs.cache
+C:\Users\LF00455\source\repos\Semana01_exercicio04\Semana01_exercicio04\obj\Debug\net6.0\Semana01_exercicio04.AssemblyInfo.cs
+C:\Users\LF00455\source\repos\Semana01_exercicio04\Semana01_exercicio04\obj\Debug\net6.0\Semana01_exercicio04.csproj.CoreCompileInputs.cache
+C:\Users\LF00455\source\repos\Semana01_exercicio04\Semana01_exercicio04\obj\Debug\net6.0\Semana01_exercicio04.dll
+C:\Users\LF00455\source\repos\Semana01_exercicio04\Semana01_exercicio04\obj\Debug\net6.0\refint\Semana01_exercicio04.dll
+C:\Users\LF00455\source\repos\Semana01_exercicio04\Semana01_exercicio04\obj\Debug\net6.0\Semana01_exercicio04.pdb
+C:\Users\LF00455\source\repos\Semana01_exercicio04\Semana01_exercicio04\obj\Debug\net6.0\Semana01_exercicio04.genruntimeconfig.cache
+C:\Users\LF00455\source\repos\Semana01_exercicio04\Semana01_exercicio04\obj\Debug\net6.0\ref\Semana01_exercicio04.dll
