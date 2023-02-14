@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Semana02
+namespace Semana02.Classes
 {
     public class ContaBancaria
     {
@@ -12,10 +12,12 @@ namespace Semana02
         public int agencia;
         public string titular;
         public float saldo = 0;
-        public enum TipoConta
-        {
-            CORRENTE = 0,
-            POUPANCA = 1
-        }
+        public TipoConta tipo;
+    }
+
+    public enum TipoConta
+    {
+        CORRENTE = 0,
+        POUPANCA = 1
     }
 }

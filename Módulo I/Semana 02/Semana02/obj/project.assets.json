@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\LF00455\\source\\repos\\Semana02\\Semana02\\Semana02.csproj",
+      "projectUniqueName": "C:\\Users\\LF00455\\Desktop\\Dev FullStack - SENAI\\dev_fullStack\\Módulo I\\Semana 02\\Semana02\\Semana02.csproj",
       "projectName": "Semana02",
-      "projectPath": "C:\\Users\\LF00455\\source\\repos\\Semana02\\Semana02\\Semana02.csproj",
+      "projectPath": "C:\\Users\\LF00455\\Desktop\\Dev FullStack - SENAI\\dev_fullStack\\Módulo I\\Semana 02\\Semana02\\Semana02.csproj",
       "packagesPath": "C:\\Users\\LF00455\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\LF00455\\source\\repos\\Semana02\\Semana02\\obj\\",
+      "outputPath": "C:\\Users\\LF00455\\Desktop\\Dev FullStack - SENAI\\dev_fullStack\\Módulo I\\Semana 02\\Semana02\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\LF00455\\AppData\\Roaming\\NuGet\\NuGet.Config",
