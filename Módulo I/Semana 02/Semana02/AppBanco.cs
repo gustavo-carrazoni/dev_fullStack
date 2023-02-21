@@ -43,7 +43,8 @@ int n = 0;
             conta1.Depositar(d);
         }
 
-        Console.WriteLine("\nSeu saldo atual é R$ " + conta1.saldo + ".");
+
+        conta1.ExibeSaldo();
         Console.WriteLine("Deseja realizar outra operação? \nSim - 0 \nNão - 1");
         n = int.Parse(Console.ReadLine());
     }while (n != 1) ;

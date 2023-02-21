@@ -49,5 +49,10 @@ namespace Semana02.Classes
                 Console.WriteLine("Saque realizado!");
             }
         }
+
+        public void ExibeSaldo()
+        {
+            Console.WriteLine($"\nSeu saldo atual é R$ {saldo} .");
+        }
     }
 }
