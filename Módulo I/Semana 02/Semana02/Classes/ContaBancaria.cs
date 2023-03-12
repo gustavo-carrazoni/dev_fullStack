@@ -8,11 +8,11 @@ namespace Semana02.Classes
 {
     public class ContaBancaria
     {
-        public int numero;
-        public int agencia;
-        public string titular;
-        public float saldo = 0;
-        public TipoConta tipo;
+        private int numero;
+        private int agencia;
+        private string titular;
+        private float saldo = 0;
+        private TipoConta tipo;
 
         public ContaBancaria(int numero, int agencia, string titular, TipoConta tipo)
         {
@@ -22,10 +22,25 @@ namespace Semana02.Classes
             this.tipo = tipo;
         }
 
+        public ContaBancaria(string nome, TipoConta tipo)
+        {
+            this.titular = nome;
+            this.tipo = tipo;
+            Random n = new Random();
+            this.numero = n.Next(0000, 10000);
+            this.agencia = n.Next(0000, 10000);
+        }
+
         public enum TipoConta
         {
             CORRENTE = 0,
             POUPANCA = 1
+        }
+
+        internal void AcessoConta()
+        {
+            Console.WriteLine($"Acessando a conta: Agência {agencia} - Número {numero}.");
+            Console.WriteLine($"Titular: {titular} - Tipo: {tipo}");
         }
 
         public void Depositar(float valor)
