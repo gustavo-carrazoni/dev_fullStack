@@ -72,9 +72,26 @@ namespace Semana02.Classes
             }
         }
 
+        public void Transferir(ContaBancaria conta, float valor)
+        {
+            if(valor <= 0)
+            {
+                Console.WriteLine("O valor para transferência precisa ser maior que zero!");
+            }
+            if(valor > saldo)
+            { 
+                Console.WriteLine("O valor para transferência deve ser menor ou igual ao seu saldo atual");
+            }
+            else
+            {
+                saldo -= valor;
+                conta.saldo = saldo + valor;
+            }
+        }
+
         public void ExibeSaldo()
         {
-            Console.WriteLine($"\nSeu saldo atual é R$ {saldo} .");
+            Console.WriteLine($"\nSaldo atual é R$ {saldo} .");
         }
     }
 }
