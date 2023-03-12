@@ -1,7 +1,8 @@
 ﻿using Semana02.Classes;
 int n = 0;
 
-    ContaBancaria conta1 = new ContaBancaria();
+    
+    ContaBancaria conta1 = new ContaBancaria(0, 0, "", 0);
 
     Console.WriteLine("Bem vindo ao maior banco da América Latina! Por favor, digite os dados da sua conta: ");
     Console.Write("Nome do titular: ");

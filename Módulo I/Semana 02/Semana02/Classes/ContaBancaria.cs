@@ -14,6 +14,13 @@ namespace Semana02.Classes
         public float saldo = 0;
         public TipoConta tipo;
 
+        public ContaBancaria(int numero, int agencia, string titular, TipoConta tipo)
+        {
+            this.numero = numero;
+            this.agencia = agencia;
+            this.titular = titular;
+            this.tipo = tipo;
+        }
 
         public enum TipoConta
         {
