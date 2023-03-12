@@ -8,27 +8,27 @@ namespace Semana02.Classes
 {
     public class ContaBancaria
     {
-        private int numero;
-        private int agencia;
-        private string titular;
-        private float saldo = 0;
-        private TipoConta tipo;
+        private int _numero;
+        private int _agencia;
+        private string _titular;
+        private float _saldo = 0;
+        private TipoConta _tipo;
 
         public ContaBancaria(int numero, int agencia, string titular, TipoConta tipo)
         {
-            this.numero = numero;
-            this.agencia = agencia;
-            this.titular = titular;
-            this.tipo = tipo;
+            _numero = numero;
+            _agencia = agencia;
+            _titular = titular;
+            _tipo = tipo;
         }
 
         public ContaBancaria(string nome, TipoConta tipo)
         {
-            this.titular = nome;
-            this.tipo = tipo;
+            _titular = nome;
+            _tipo = tipo;
             Random n = new Random();
-            this.numero = n.Next(0000, 10000);
-            this.agencia = n.Next(0000, 10000);
+            _numero = n.Next(0000, 10000);
+            _agencia = n.Next(0000, 10000);
         }
 
         public enum TipoConta
@@ -39,8 +39,8 @@ namespace Semana02.Classes
 
         internal void AcessoConta()
         {
-            Console.WriteLine($"Acessando a conta: Agência {agencia} - Número {numero}.");
-            Console.WriteLine($"Titular: {titular} - Tipo: {tipo}");
+            Console.WriteLine($"Acessando a conta: Agência {_agencia} - Número {_numero}.");
+            Console.WriteLine($"Titular: {_titular} - Tipo: {_tipo}");
         }
 
         public void Depositar(float valor)
@@ -51,7 +51,7 @@ namespace Semana02.Classes
             }
             else
             {
-                saldo = saldo + valor;
+                _saldo += valor;
             }
         }
 
@@ -61,13 +61,13 @@ namespace Semana02.Classes
             {
                 Console.WriteLine("O valor sacado deve ser maior que 0!");
             }
-            if(valor > saldo)
+            if(valor > _saldo)
             {
                 Console.WriteLine("O valor é maior do que o saldo disponível em conta!");
             }
-            if(valor > 0 && valor <= saldo)
+            if(valor > 0 && valor <= _saldo)
             {
-                saldo = saldo - valor;
+                _saldo -= valor;
                 Console.WriteLine("Saque realizado!");
             }
         }
@@ -78,20 +78,20 @@ namespace Semana02.Classes
             {
                 Console.WriteLine("O valor para transferência precisa ser maior que zero!");
             }
-            if(valor > saldo)
+            if(valor > _saldo)
             { 
                 Console.WriteLine("O valor para transferência deve ser menor ou igual ao seu saldo atual");
             }
             else
             {
-                saldo -= valor;
-                conta.saldo = saldo + valor;
+                _saldo -= valor;
+                conta._saldo += valor;
             }
         }
 
         public void ExibeSaldo()
         {
-            Console.WriteLine($"\nSaldo atual é R$ {saldo} .");
+            Console.WriteLine($"\nSaldo atual é R$ {_saldo} .");
         }
     }
 }
