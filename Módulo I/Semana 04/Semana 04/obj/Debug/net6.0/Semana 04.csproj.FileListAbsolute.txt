@@ -1,0 +1,15 @@
+C:\Users\LF00455\source\repos\Semana04\Semana 04\bin\Debug\net6.0\Semana 04.exe
+C:\Users\LF00455\source\repos\Semana04\Semana 04\bin\Debug\net6.0\Semana 04.deps.json
+C:\Users\LF00455\source\repos\Semana04\Semana 04\bin\Debug\net6.0\Semana 04.runtimeconfig.json
+C:\Users\LF00455\source\repos\Semana04\Semana 04\bin\Debug\net6.0\Semana 04.dll
+C:\Users\LF00455\source\repos\Semana04\Semana 04\bin\Debug\net6.0\Semana 04.pdb
+C:\Users\LF00455\source\repos\Semana04\Semana 04\obj\Debug\net6.0\Semana 04.csproj.AssemblyReference.cache
+C:\Users\LF00455\source\repos\Semana04\Semana 04\obj\Debug\net6.0\Semana 04.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\LF00455\source\repos\Semana04\Semana 04\obj\Debug\net6.0\Semana 04.AssemblyInfoInputs.cache
+C:\Users\LF00455\source\repos\Semana04\Semana 04\obj\Debug\net6.0\Semana 04.AssemblyInfo.cs
+C:\Users\LF00455\source\repos\Semana04\Semana 04\obj\Debug\net6.0\Semana 04.csproj.CoreCompileInputs.cache
+C:\Users\LF00455\source\repos\Semana04\Semana 04\obj\Debug\net6.0\Semana 04.dll
+C:\Users\LF00455\source\repos\Semana04\Semana 04\obj\Debug\net6.0\refint\Semana 04.dll
+C:\Users\LF00455\source\repos\Semana04\Semana 04\obj\Debug\net6.0\Semana 04.pdb
+C:\Users\LF00455\source\repos\Semana04\Semana 04\obj\Debug\net6.0\Semana 04.genruntimeconfig.cache
+C:\Users\LF00455\source\repos\Semana04\Semana 04\obj\Debug\net6.0\ref\Semana 04.dll
