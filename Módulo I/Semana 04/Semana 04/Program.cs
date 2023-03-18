@@ -13,7 +13,7 @@ Console.WriteLine("\nCriando conta para este cliente.");
     int n = r.Next(00, 100);
     int a = r.Next(00, 100);
 
-    ContaBancaria conta1 = new ContaBancaria(n, a, cliente1);
+    Corrente conta1 = new Corrente(n, a, cliente1);
     conta1.Depositar(250);
 
 Console.WriteLine($"Conta criada: \nNumero {conta1.Numero}, \nAgencia {conta1.Agencia}, \nSaldo R$ {conta1.Saldo}");
@@ -24,7 +24,7 @@ Console.WriteLine("Criando segunda conta.");
     a = r.Next(00, 100);
 Cliente cliente2 = new Cliente("Cliente 2", DateTime.Parse("20/03/2001"), "Vendedor", Semana_04.Classes.Enum.EstadoCivil.CASADO, Semana_04.Classes.Enum.TipoPessoa.FISICA);
 
-    ContaBancaria conta2 = new ContaBancaria(n, a, cliente2);
+    Poupanca conta2 = new Poupanca(n, a, cliente2);
 
 Console.WriteLine($"\nConta criada para {cliente2.Nome}, nascido em {cliente2.Nascimento:d}, {cliente2.Profissao}. \nNumero {conta2.Numero}, \nAgencia {conta2.Agencia}, \nSaldo R$ {conta2.Saldo}");
 
@@ -49,7 +49,7 @@ do
     }
     if (i == 2)
     {
-        Console.WriteLine("Selecione a conta de saída: \nConta 1 - 1 \nConta2 - 2");
+        Console.WriteLine("Selecione a conta de saída: \nConta 1 - 1 \nConta 2 - 2");
         if(Console.ReadLine() == "1")
         {
             Console.WriteLine("Digite o valor que deseja transferir: ");
